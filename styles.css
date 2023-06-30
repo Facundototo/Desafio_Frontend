@@ -21,14 +21,17 @@ body{
     margin: 0;
     color: rgb(105, 104, 104);
 }
+.boxes{
+    width: 100vw;
+}
 .boxes div{
     height: auto;
-    width: 25%;
+    width: 83%;
     margin: 2px;
-    margin-top: 50px;
+    margin-top: 40px;
     border: 1px;
-    box-shadow: 0 5px 2px -2px gray;
     border-radius: 7px;
+    margin-left: 79px;
 }
 .boxes div h1{
     font-family: 'Poppins', sans-serif;   
@@ -51,19 +54,71 @@ body{
 }
 
 #redBox{
-    border-top: 4px solid red;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    align-items: end;
 }
 #yellowBox{
-    border-top: 4px solid rgb(255, 238, 0); 
+    border-top: 4px solid hsl(34, 97%, 64%); 
+    align-items: start;
 }
 #cyanBox{
-    border-top: 4px solid cyan; 
+    border-top: 4px solid hsl(180, 62%, 55%); 
+    justify-content: flex-end;
+    align-items: center;
 }
 #blueBox{
-    border-top: 4px solid blue; 
+    border-top: 4px solid hsl(212, 86%, 64%); 
+    justify-content: flex-start;
+    align-items: center;
+}
+.contenedor{
+    width: 100vw;
+    height: 60vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.columnaIzquierda{
+    border: 2px solid red;
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.columnaCentral{
+    border: 2px solid blue;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.columnaDerecha{
+    border: 2px solid greenyellow;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.superVisorDiv{
+    border: 1px solid violet;
+    margin-right: 2%;
+    box-shadow: 0 5px 2px -2px gray;
 }
 
 
-
-
-
+.teamBuilderDiv{
+    border: 1px solid rebeccapurple;
+    box-shadow: 0 5px 2px -2px gray;
+}
+.karmaDiv{
+    border: 1px solid rgb(91, 188, 106);
+    box-shadow: 0 5px 2px -2px gray;
+}
+.calculatorDiv{
+    border: 1px solid crimson;
+    box-shadow: 0 5px 2px -2px gray;
+}
