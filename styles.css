@@ -12,8 +12,10 @@ body{
     font-family: 'Poppins', sans-serif;  
 }
 #segundoH1{
-    font-weight: 3000;
-    font-family: 'Poppins', sans-serif; 
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #474B4D;
+    
 }
 .texto_arriba p{
     font-family: 'Poppins', sans-serif;  
@@ -34,11 +36,12 @@ body{
     margin-left: 79px;
 }
 .boxes div h1{
-    font-family: 'Poppins', sans-serif;   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    color: #474B4D;
 }
 .boxes div p{
     margin-left: 20px;
@@ -122,3 +125,12 @@ body{
     border: 1px solid crimson;
     box-shadow: 0 5px 2px -2px gray;
 }
+
+.sombrasCont{
+    box-shadow: 0px 10px 30px #D3DADE;
+}
+
+.txtClarito{
+    color: #ABB2B6;
+}
+
